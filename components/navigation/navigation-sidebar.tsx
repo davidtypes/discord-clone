@@ -39,7 +39,7 @@ export const NavigationSidebar = async () => {
             <NavigationAction />
             <Separator
                 className="h-[2px] bg-zinc-300 dark:bg-zinc-700 rounded-md
-                w-10 mx-auto"
+                w-8 mx-auto"
             />
             <ScrollArea className="flex-1 w-full">
                 {servers.map((server) => (
